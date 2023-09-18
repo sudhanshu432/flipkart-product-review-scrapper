@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route("/", methods = ['GET'])
 def homepage():
-    return render_template("index.html")
+    return render_template("result.html")
 
 @app.route("/review" , methods = ['POST' , 'GET'])
 def index():
